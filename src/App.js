@@ -1,8 +1,13 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import { parseUrl } from "./api/utils";
 
 function App() {
+  console.log(
+    "---parseUrl---",
+    parseUrl("www.lkchain.org/cn/home?a=1&b=2&c=3")
+  );
   return (
     <div className="App">
       <header className="App-header">
