@@ -18,7 +18,8 @@ In the project directory, you can run:
     2、date.js
         time:转换为毫秒的时间戳
         format：时间格式化
-        formatSecond：秒数格式化
+        formatSecond：秒数格式化,
+        dateTransfrom：将时间转换为英文格式
     3、loadScript.js
         loadScript：异步加载页面脚本
     4、object.js
@@ -40,5 +41,12 @@ In the project directory, you can run:
         getOsVersion：获取操作系统版本
         getNetworkInfo：获取网络连接类型
         getSystem：获取系统类型(Android | IOS)
+    8、request.js
+        checkStatus：检查请求返回响应状态码
+        parseResult：解析请求内容
+        request：封装fetch
+    9、require.js
+        postRequest：封装post请求
+        getRequest：封装get请求
         
 
